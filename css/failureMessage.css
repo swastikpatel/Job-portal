@@ -1,0 +1,37 @@
+.top-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    background-color: #ffd22e;
+}
+
+.logo img{
+    width: 140px;
+    height: 100px;
+}
+
+.message-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 80px 0px 80px;
+}
+
+button{
+    width: 100px;
+    padding: 20px;
+}

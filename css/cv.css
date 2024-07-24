@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+h4 {
+  color: #007BFF;
+}
+
+h5 {
+  color: #333;
+  margin-bottom: 0px;
+}
+
+p {
+  color: #555;
+}
+
+ul{
+  margin-bottom: 0px;
+}
+
+.cv-data{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+  background: #9fc3ed;
+}
+
+header{
+  padding:30px;
+  background: #3a8ee8;
+}
+
+.contact{
+  border-right: 2px solid gray;
+  padding-right: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile{
+  padding-left:20px;
+  width: 50%;
+}
+
+.email img , .call img , .address img{ 
+  width: 15px;
+  height: 15px;
+}
+
+.call , .email , .address{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.education{
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+}
+
+

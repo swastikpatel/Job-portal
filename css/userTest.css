@@ -1,0 +1,107 @@
+body{
+    padding: 30px;
+    height: 100vh;
+}
+
+.test-data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.test-container{
+    padding: 10px 50px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+} 
+
+.test-data{
+    display: flex;
+}
+
+
+.test-img{
+    width: 40%;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-img img{
+    width: 50%;
+}
+
+.questions{
+    width: 60%;
+}
+
+.test-header{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-container{
+    display: flex;
+    height: 600px;
+}
+
+.card-container{
+    width: 80%!important;
+    border: none;
+}
+
+.card-options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-body{
+    overflow-y: scroll;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-parent{
+    padding: 20px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    background-color: #ffd22e;
+}
+
+.logo img{
+    width: 140px;
+    height: 100px;
+}
+
+.option-container{
+    border: 1px solid #b2b8b4;
+    padding: 10px 10px;
+}

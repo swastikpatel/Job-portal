@@ -1,0 +1,52 @@
+.top-left{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.bottom-right{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  background-color: #ffd22e;
+}
+
+.logo img{
+  width: 140px;
+  height: 100px;
+}
+
+.custom-card {
+  width: 50%;
+  margin: 100px auto;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.job-seeker-details img{
+  width: 200px;
+  height: 150px;
+}
+
+.seeker{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.job-seeker-details{
+  width: 30%;
+  border-right: 1px solid rgb(164, 164, 164);
+}
+
+.job-seeker-marks{
+  width: 70%;
+}

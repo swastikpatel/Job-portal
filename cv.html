@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/cv.css"/>
+    <script src="/js/cv.js"></script>
+    
+</head>
+<body onload="populateResumeData()"> 
+
+    <div class="container" >
+        <header>
+            <h1 id="name"></h1>
+        </header>
+
+        <div class="cv-data">
+          <div class="contact">
+            <div>
+              <h4>Contact</h4>
+              <div class="call">
+                <img src="assets/images/call.svg">
+                <p id="call"></p>
+              </div>
+              <div class="email">
+                <img src="assets/images/email.svg"/>
+                <p id="email"></p>
+              </div>
+              <div class="address">
+                <img src="assets/images/address.svg"/>
+                <p id="address"></p>
+              </div>
+            </div>
+            <div class="education"> 
+              <h4>Education</h4>
+              <div class="SSC">
+                <h5>SSC</h5>
+                <p id="sscBoard"></p>
+                <p id="sscYear"></p>
+                <p id="sscPercentage"></p>
+              </div>
+              <div class="HSC">
+                <h5>HSC</h5>
+                <p id="hscBoard"></p>
+                <p id="hscYear"></p>
+                <p id="hscPercentage"></p>
+              </div>
+              <div class="degree"> 
+                <h5>Bachelores</h5>
+                <p id="college"></p>
+                <p id="collegeYear"></p>
+                <p id="collegePercentage"></p>
+              </div>
+            </div>
+            <div>
+              <h4 >Skills and Activities</h4> 
+              <ul id="skills"></ul>
+            </div>
+            <div>
+              <h4 >Awards and Honors</h4>
+              <ul id="awards"></ul>
+            </div>
+          </div>
+          <div class="profile"> 
+            <div>  
+              <h4>Profile</h4>
+              <p id="profile" style="word-break: break-all;"></p>
+            </div>
+            <div class="certificate" > 
+              <h4 >Certifications</h4>
+              <ul  id="certificate"></ul>
+            </div>
+            <div class="experience"> 
+              <h4>Experience</h4>
+              <p id="experience" style="word-break: break-all;"></p>
+            </div>
+            <div> 
+              <h4 >Languages Known</h4>
+              <ul id="language"></ul>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
